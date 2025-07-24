@@ -1,0 +1,183 @@
+body {
+  font-family: 'Unna', serif;
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f5c9a7;
+}
+
+header {
+  background: #C84C05;
+  color: #EFE5DA;
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0; 
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 15px;
+}
+
+nav ul li a {
+  color: #EFE5DA;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+  margin: 10px 0;
+}
+
+#secao1 {
+  background: #EAB38E;
+}
+
+.img1 {
+  width: 1200px;
+  padding-left: 10%;
+}
+
+.sec1 {
+  background-color: #e9a072;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 100px;
+  border-radius: 20px;
+  margin: 2%;
+}
+
+
+
+
+#secao2 {
+  background: #E7A87E;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  padding: 40px;
+}
+
+.receita {
+  background-color: #d38551;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease-in-out;
+}
+
+.receita:hover {
+  transform: scale(1.02);
+}
+
+.receita img {
+  width: 250px;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+h2,
+h3 {
+  color: #5b321e;
+  margin-bottom: 10px;
+}
+
+ul,
+ol {
+  margin-left: 20px;
+}
+
+
+
+
+#secao3 {
+  background: #DDA67B;
+  background-color: #e9a072;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 100px;
+  border-radius: 20px;
+  margin: 2%;
+
+}
+
+
+
+#secao4 {
+  background: #E7A87E;
+  ;
+}
+
+#secao4 h2 {
+  color: #C84C05;
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+#secao4 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+form label {
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+  color: #8a5a3b;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px;
+  border-radius: 10px;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+form button {
+  background-color: #C84C05;
+  color: #ddcabe;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+form button:hover {
+  background-color: #632b0d;
+}
+
+
+
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background: #333;
+  color: #8A6B5C;
+  position: relative;
+}
+
+.botao {
+  background-color: #9e501f;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 12px;
+}
+
+button:hover {
+  background-color: #753b1a;
+}
